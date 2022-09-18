@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    android:background="@drawable/background"
+    >
+
+
+    <TextView
+        android:id="@+id/q11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Q#11 Whats Elon Musk favorite food?"
+        android:textSize="20sp"
+        android:textColor="@color/white"/>
+    <CheckBox
+        android:id="@+id/french"
+        android:layout_below="@id/q11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="French"
+        android:textSize="15sp"
+        android:textColor="@color/cyan"/>
+    <CheckBox
+        android:id="@+id/fries"
+        android:layout_below="@id/french"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fries"
+        android:textSize="15sp"
+        android:textColor="@color/cyan"/>
+    <CheckBox
+        android:id="@+id/bbq"
+        android:layout_below="@id/fries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BBQ"
+        android:textSize="15sp"
+        android:textColor="@color/cyan"/>
+    <CheckBox
+        android:id="@+id/burger"
+        android:layout_below="@id/bbq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Burger"
+        android:textSize="15sp"
+        android:textColor="@color/cyan"/>
+
+    <TextView
+        android:id="@+id/q12"
+        android:layout_below="@id/burger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Q#12 Who is the most beautiful place in Pakistan?"
+        android:textSize="20sp"
+        android:textColor="@color/white"/>
+    <CheckBox
+        android:id="@+id/hunza"
+        android:layout_below="@id/q12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hunza Valley"
+        android:textSize="15sp"
+        android:textColor="@color/cyan"/>
+    <CheckBox
+        android:id="@+id/swat"
+        android:layout_below="@id/hunza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Swat Valley"
+        android:textSize="15sp"
+        android:textColor="@color/cyan"/>
+    <CheckBox
+        android:id="@+id/naran"
+        android:layout_below="@id/swat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Naran Kaghan"
+        android:textSize="15sp"
+        android:textColor="@color/cyan"/>
+    <CheckBox
+        android:id="@+id/peshwar"
+        android:layout_below="@id/naran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Peshawar"
+        android:textSize="15sp"
+        android:textColor="@color/cyan"/>
+<Button
+    android:id="@+id/subbtn"
+    android:layout_below="@id/peshwar"
+    android:layout_marginTop="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Submit"
+    />
+</RelativeLayout>

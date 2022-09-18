@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    android:background="@drawable/background"
+
+    >
+    <TextView
+        android:id="@+id/q1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Q#1 Who is the founder of pakistan?"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+    <RadioGroup
+        android:id="@+id/rgq1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q1">
+        <RadioButton
+            android:id="@+id/r1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Allama Iqbal"
+            android:textColor="@color/cyan"/>
+        <RadioButton
+            android:id="@+id/r2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rehmat Khan"
+            android:textColor="@color/cyan"/>
+        <RadioButton
+            android:id="@+id/r3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quaid E Azam"
+            android:textColor="@color/cyan"/>
+        <RadioButton
+            android:id="@+id/r4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feroz Khan"
+            android:textColor="@color/cyan"/>
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rgq1"
+        android:text="Q#2 The color of Pakistan flag?"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+    <RadioGroup
+        android:id="@+id/rgq2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q2">
+        <RadioButton
+            android:id="@+id/r5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="green and red"
+            android:textColor="@color/cyan"/>
+        <RadioButton
+            android:id="@+id/r6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="white and green"
+            android:textColor="@color/cyan"/>
+        <RadioButton
+            android:id="@+id/r7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="white and blue"
+            android:textColor="@color/cyan"/>
+        <RadioButton
+            android:id="@+id/r8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="blue and red"
+            android:textColor="@color/cyan"/>
+    </RadioGroup>
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rgq2"
+        android:text="next"/>
+</RelativeLayout>

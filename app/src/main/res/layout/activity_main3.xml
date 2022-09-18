@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    android:background="@drawable/background"
+    >
+
+    <TextView
+        android:id="@+id/q5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Q#5 Who was the first President of the Constituent Assembly of Pakistan?"
+        android:textSize="20sp"
+        android:textColor="@color/white"/>
+
+    <RadioGroup
+        android:id="@+id/rgq5"
+        android:layout_below="@id/q5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <RadioButton
+            android:id="@+id/s2b1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Liaquat Ali Khan"
+            android:textColor="@color/cyan"/>
+
+        <RadioButton
+            android:id="@+id/s2b2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quaid-e-Azam"
+            android:textColor="@color/cyan"/>
+
+        <RadioButton
+            android:id="@+id/s2b3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Moulvi Tameez-ud-Din"
+            android:textColor="@color/cyan"
+            />
+
+        <RadioButton
+            android:id="@+id/s2b4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Sardar Abdur Rab Nishtar"
+            android:textColor="@color/cyan"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_below="@id/rgq5"
+        android:id="@+id/q6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Q#6 After how many years Pakistan got its first constitution?"
+        android:textSize="20sp"
+        android:textColor="@color/white"/>
+
+    <RadioGroup
+        android:id="@+id/rgq6"
+        android:layout_below="@id/q6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <RadioButton
+            android:id="@+id/s2b5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5 years"
+            android:textColor="@color/cyan"/>
+
+        <RadioButton
+            android:id="@+id/s2b6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7 years"
+            android:textColor="@color/cyan"/>
+
+        <RadioButton
+            android:id="@+id/s2b7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9 years"
+            android:textColor="@color/cyan"
+            />
+
+        <RadioButton
+            android:id="@+id/s2b8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11 years"
+            android:textColor="@color/cyan"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/next1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rgq6"
+        android:text="next"
+        />
+
+</RelativeLayout>
