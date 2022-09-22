@@ -25,29 +25,8 @@ class MainActivity3 : AppCompatActivity() {
         rgq5.setOnCheckedChangeListener { group, q5 ->
             run {
                 when(q5){
-                    R.id.s2b1->{
-                        s2b2.isChecked=false
-                        s2b3.isChecked=false
-                        s2b4.isChecked=false
-                        score=score
-                    }
                     R.id.s2b2->{
-                        s2b1.isChecked=false
-                        s2b3.isChecked=false
-                        s2b4.isChecked=false
                         score=score+1
-                    }
-                    R.id.s2b3->{
-                        s2b2.isChecked=false
-                        s2b1.isChecked=false
-                        s2b4.isChecked=false
-                        score=score
-                    }
-                    R.id.s2b4->{
-                        s2b2.isChecked=false
-                        s2b3.isChecked=false
-                        s2b1.isChecked=false
-                        score=score
                     }
                 }
             }
@@ -55,31 +34,9 @@ class MainActivity3 : AppCompatActivity() {
         rgq6.setOnCheckedChangeListener { group, q6 ->
             run {
                 when(q6){
-                    R.id.s2b5->{
-                        s2b6.isChecked=false
-                        s2b7.isChecked=false
-                        s2b8.isChecked=false
-                        score=score
-                    }
-                    R.id.s2b6->{
-                        s2b5.isChecked=false
-                        s2b7.isChecked=false
-                        s2b8.isChecked=false
-                        score=score
-                    }
                     R.id.s2b7->{
-                        s2b6.isChecked=false
-                        s2b5.isChecked=false
-                        s2b8.isChecked=false
                         score=score+1
                     }
-                    R.id.s2b8->{
-                        s2b6.isChecked=false
-                        s2b7.isChecked=false
-                        s2b5.isChecked=false
-                        score=score
-                    }
-
                 }
             }
         }
